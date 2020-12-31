@@ -24,6 +24,3 @@ const powerCalculator = (base, exponent) => {
     //General Case
     return base * powerCalculator(base, --exponent)
 }
-
-powerCalculator(10, 2);
-powerCalculator(10, -2);

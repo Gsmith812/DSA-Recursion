@@ -20,5 +20,3 @@ const countingSheep = (count, array) => {
     return countingSheep(--count, lines)
     
 }
-
-countingSheep(3);
