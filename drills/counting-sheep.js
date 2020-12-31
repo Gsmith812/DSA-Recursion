@@ -21,4 +21,4 @@ const countingSheep = (count, array) => {
     
 }
 
-console.log(countingSheep(3))
+countingSheep(3);
