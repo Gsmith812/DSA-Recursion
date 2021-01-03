@@ -18,3 +18,5 @@ const nthTriangularNum = (num) => {
     //General Case
     return num + nthTriangularNum(num - 1)
 }
+
+nthTriangularNum(1);
