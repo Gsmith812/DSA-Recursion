@@ -8,16 +8,16 @@
 
 const powerCalculator = (base, exponent) => {
     //Invalid case
-    if(exp < 0) {
+    if(exponent < 0) {
         return `exponent should be >= 0`
     }
     //If exponent is equal to 0
-    if(exp === 0) {
+    if(exponent === 0) {
         return 1
     }
 
     //Base Case
-    if(exp === 1) {
+    if(exponent === 1) {
         return base
     }
 
