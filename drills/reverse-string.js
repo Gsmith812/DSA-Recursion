@@ -4,5 +4,5 @@
 
 const reverseString = string => {
     if(string === '') return '';
-    return reverseString(string.substr(1) + string.charAt(0))
+    return reverseString(string.substr(1)) + string.charAt(0);
 }

@@ -7,16 +7,16 @@
 const nthTriangularNum = (num) => {
     //Invalid Case
     if(num <= 0) {
-        return `Number must be a positive integer`
+        return console.log(`Number must be a positive integer`);
     }
 
     //Base Case
     if(num <= 1) {
-        return num
+        return num;
     }
 
     //General Case
-    return num + nthTriangularNum(num - 1)
+    return num + nthTriangularNum(num - 1);
 }
 
 nthTriangularNum(1);

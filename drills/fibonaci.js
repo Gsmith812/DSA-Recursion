@@ -21,10 +21,4 @@ const fibonacci = (num, prevVal) => {
     //General Case
 
     return prevVal[num] = fibonacci(num - 1, prevVal) + fibonacci(num - 2, prevVal)
-
-
-
-
-
-
 }
